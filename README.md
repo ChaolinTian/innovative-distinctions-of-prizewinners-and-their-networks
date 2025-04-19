@@ -4,14 +4,15 @@ This repository contains the code and data used to reproduce the results present
 
 ## Datasets
 This repository includes the following datasets: 
-
-* 'data_part_I.dta': This dataset contains the innovativeness measures of prizewinners and matched non-prizewinners, used to reproduce the results of Figure 1 and conduct the linear regressions to generate Table 1 and Figure 2.  
-* 'data_part_II.dta': This dataset contains the embeddedness measures of prizewinners and matched non-prizewinners’ co-authorship networks, used to conduct linear regressions to generate Table 2 and Figure 4.
-* 'Margin_data_Figure2.xlsx': This dataset contains the results from the linear regressions, used to reproduce the results shown in Figure 2.
+* 'data_Fig_1_main.pkl', 'data_Fig_1_noveltyInsert.pkl', 'data_Fig_1_convergenceInsert.pkl', 'data_Fig_1_interdisciplinarityInsert.pkl' : These datasets contain the innovativeness measures of prizewinners and matched non-prizewinners, used to conduct the Figure 1.
+* 'data_part_I.dta': This dataset contains the innovativeness measures of prizewinners and matched non-prizewinners, used to conduct the linear regressions to generate Figure 2.  
+* 'data_part_II.dta': This dataset contains the embeddedness measures and innovativeness measures of prizewinners and matched non-prizewinners’ co-authorship networks, used to conduct linear regressions to generate Table 1.
+* 'Margin_data_Figure2.xlsx': This dataset contains the results from the linear regressions, used to reproduce the results shown in Figure 2B.
+* 'data_Fig_4.pkl':This datasets contains the embeddedness measures of prizewinners and matched non-prizewinners, used to conduct the Figure 4.
 
 ## Code 
 The code for this project is organized into several scripts, each serving a specific purpose:
-* 'Figures.ipynb':This Jupyter Notebook contains Python code to analyze the data_part_I.dta and Margin_data_Figure2.xlsx datasets.
+* 'Figures.ipynb':This Jupyter Notebook contains Python code to analyze the 'data_part_I.dta', 'data_part_II.dta' and Margin_data_Figure2.xlsx datasets.
 * 'Reg_Part_I.do': This Stata script contains commands to analyze the data_part_I.dta dataset.
 * 'Reg_Part_II.do': This Stata script contains commands to analyze the data_part_II.dta dataset.
 
