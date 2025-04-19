@@ -19,7 +19,7 @@ The following datasets are available for download via the Harvard Dataverse:
   → Innovativeness measures of prizewinners and matched non-prizewinners used in Figure 1.
 
 - `data_part_I.dta`  
-  → Innovativeness indicators used in regression analyses for Figure 2.
+  → Innovativeness indicators used in regression analyses for Figure 2A.
 
 - `data_part_II.dta`  
   → Embeddedness and innovativeness measures used in regressions for Table 1.
