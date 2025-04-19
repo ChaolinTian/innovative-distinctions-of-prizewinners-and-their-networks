@@ -5,9 +5,9 @@ This repository contains the code and data used to reproduce the results present
 ## Datasets
 This repository includes the following datasets: 
 * 'data_Fig_1_main.pkl', 'data_Fig_1_noveltyInsert.pkl', 'data_Fig_1_convergenceInsert.pkl', 'data_Fig_1_interdisciplinarityInsert.pkl' : These datasets contain the innovativeness measures of prizewinners and matched non-prizewinners, used to conduct the Figure 1.
-* 'data_part_I.dta': This dataset contains the innovativeness measures of prizewinners and matched non-prizewinners, used to conduct the linear regressions to generate Figure 2.  
-* 'data_part_II.dta': This dataset contains the embeddedness measures and innovativeness measures of prizewinners and matched non-prizewinners’ co-authorship networks, used to conduct linear regressions to generate Table 1.
-* 'Margin_data_Figure2.xlsx': This dataset contains the results from the linear regressions, used to reproduce the results shown in Figure 2B.
+* 'data_part_I.dta': This dataset contains the innovativeness measures of prizewinners and matched non-prizewinners, used to conduct the regressions to generate Figure 2.  
+* 'data_part_II.dta': This dataset contains the embeddedness measures and innovativeness measures of prizewinners and matched non-prizewinners’ co-authorship networks, used to conduct regressions to generate Table 1.
+* 'Margin_data_Figure2.xlsx': This dataset contains the results from the regressions, used to reproduce the results shown in Figure 2B.
 * 'data_Fig_4.pkl':This datasets contains the embeddedness measures of prizewinners and matched non-prizewinners, used to conduct the Figure 4.
 
 ## Code 
@@ -18,7 +18,7 @@ The code for this project is organized into several scripts, each serving a spec
 
 ### Code structure 
 * 'Figures.ipynb': Reproduces results shown in Figure 1, Figure 2, and Figure 4 using Python.
-* 'Reg_Part_I.do': Provides linear regression results using Stata.
-* 'Reg_Part_II.do': Provides linear regression results using Stata.
+* 'Reg_Part_I.do': Provides regression results using Stata.
+* 'Reg_Part_II.do': Provides regression results using Stata.
 
 
