@@ -1,24 +1,50 @@
 # Quantifying-Innovativeness-of-Prizewinners
-## Codes and data for reproducing results
-This repository contains the code and data used to reproduce the results presented in the paper "Quantifying the Innovativeness of Science Prizewinners and their Embeddedness in Collaboration Networks". 
 
-## Datasets
-This repository includes the following datasets: 
-* 'data_Fig_1_main.pkl', 'data_Fig_1_noveltyInsert.pkl', 'data_Fig_1_convergenceInsert.pkl', 'data_Fig_1_interdisciplinarityInsert.pkl' : These datasets contain the innovativeness measures of prizewinners and matched non-prizewinners, used to conduct the Figure 1.
-* 'data_part_I.dta': This dataset contains the innovativeness measures of prizewinners and matched non-prizewinners, used to conduct the regressions to generate Figure 2.  
-* 'data_part_II.dta': This dataset contains the embeddedness measures and innovativeness measures of prizewinners and matched non-prizewinners’ co-authorship networks, used to conduct regressions to generate Table 1.
-* 'Margin_data_Figure2.xlsx': This dataset contains the results from the regressions, used to reproduce the results shown in Figure 2B.
-* 'data_Fig_4.pkl':This datasets contains the embeddedness measures of prizewinners and matched non-prizewinners, used to conduct the Figure 4.
+## Overview
+This repository contains the code and metadata for reproducing the results presented in the paper:
 
-## Code 
-The code for this project is organized into several scripts, each serving a specific purpose:
-* 'Figures.ipynb':This Jupyter Notebook contains Python code to analyze the 'data_part_I.dta', 'data_part_II.dta' and Margin_data_Figure2.xlsx datasets.
-* 'Reg_Part_I.do': This Stata script contains commands to analyze the data_part_I.dta dataset.
-* 'Reg_Part_II.do': This Stata script contains commands to analyze the data_part_II.dta dataset.
+**"Quantifying the Innovativeness of Science Prizewinners and their Embeddedness in Collaboration Networks"**
 
-### Code structure 
-* 'Figures.ipynb': Reproduces results shown in Figure 1, Figure 2, and Figure 4 using Python.
-* 'Reg_Part_I.do': Provides regression results using Stata.
-* 'Reg_Part_II.do': Provides regression results using Stata.
+## Data Availability
+To facilitate reproducibility and long-term access, all datasets used in this project are archived and publicly available on the **[Harvard Dataverse](https://dataverse.harvard.edu/)**.
+
+📂 **Access the dataset here**: [https://doi.org/10.7910/DVN/XXXXXXX](https://doi.org/10.7910/DVN/XXXXXXX)  
+*(Replace with your actual DOI)*
+
+> *Note: Due to file size limitations on GitHub, the datasets are not stored in this repository.*
+
+## Dataset Descriptions
+The following datasets are described in the study and can be downloaded via Harvard Dataverse:
+
+- `data_Fig_1_main.pkl`, `data_Fig_1_noveltyInsert.pkl`, `data_Fig_1_convergenceInsert.pkl`, `data_Fig_1_interdisciplinarityInsert.pkl`  
+  → Innovativeness measures of prizewinners and matched non-prizewinners (used for Figure 1)
+
+- `data_part_I.dta`  
+  → Used to estimate regression models for Figure 2
+
+- `data_part_II.dta`  
+  → Contains embeddedness and innovativeness metrics for co-authorship networks (used in Table 1)
+
+- `Margin_data_Figure2.xlsx`  
+  → Regression margin estimates for Figure 2B
+
+- `data_Fig_4.pkl`  
+  → Embeddedness measures of prizewinners and matched non-prizewinners (used in Figure 4)
+
+## Code Structure
+This repository includes both Python and Stata scripts used for analysis and visualization:
+
+- `Figures.ipynb`  
+  → Python notebook to reproduce Figures 1, 2, and 4
+
+- `Reg_Part_I.do`  
+  → Stata script for regression analysis using `data_part_I.dta`
+
+- `Reg_Part_II.do`  
+  → Stata script for regression analysis using `data_part_II.dta`
+
+## Citation
+If you use the data or code in this repository, please cite the corresponding paper and data DOI.
+
 
 
