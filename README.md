@@ -1,9 +1,9 @@
-# Quantifying-Innovativeness-of-Prizewinners
+# The Innovative Distinctions of Prizewinners and their Networks
 
 ## Overview
 This repository contains the code and metadata for reproducing the analyses presented in the paper:
 
-**"Quantifying the Innovativeness of Science Prizewinners and Their Embeddedness in Collaboration Networks"**
+**"The Innovative Distinctions of Prizewinners and their Networks"**
 
 ## Data Availability
 To ensure transparency and reproducibility, all datasets used in this study are archived on the **[Harvard Dataverse](https://dataverse.harvard.edu/)**.
