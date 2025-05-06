@@ -1,4 +1,4 @@
-# The Innovative Distinctions of Prizewinners and their Networks
+# Innovative-Distinctions-of-Prizewinners-and-their-Networks
 
 ## Overview
 This repository contains the code and metadata for reproducing the analyses presented in the paper:
